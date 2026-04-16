@@ -1,0 +1,92 @@
+# ==================== 通用忽略 ====================
+# 依赖目录
+node_modules/
+**/node_modules/
+
+# 构建输出
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+
+# 环境变量文件
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+
+# ==================== IDE 和编辑器 ====================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-workspace
+*.sublime-project
+
+# ==================== 操作系统文件 ====================
+.DS_Store
+**/.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==================== 日志文件 ====================
+logs/
+**/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==================== 测试和覆盖率 ====================
+coverage/
+**/coverage/
+.nyc_output/
+**/.nyc_output/
+
+# ==================== 临时文件 ====================
+*.tmp
+*.temp
+.cache/
+**/.cache/
+tmp/
+**/tmp/
+temp/
+**/temp/
+
+# ==================== 前端项目特定 ====================
+# Vite
+*.local
+
+# Electron
+dist-electron/
+**/dist-electron/
+release/
+**/release/
+*.asar
+
+# 截图目录
+screenshots/
+**/screenshots/
+
+# TypeScript
+*.tsbuildinfo
+
+# ==================== Docker ====================
+# Docker 数据卷（如果本地挂载）
+docker-data/
+
+# ==================== 其他 ====================
+# 包管理器锁文件（可选，根据团队规范决定是否忽略）
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

@@ -1,0 +1,14 @@
+node_modules
+dist
+dist-electron
+release
+.git
+.gitignore
+*.md
+.DS_Store
+.vscode
+.idea
+*.log
+coverage
+.nyc_output
+screenshots
